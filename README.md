@@ -24,7 +24,7 @@
 
 In this project, we aim to understand the 3D geometry of the spine at a patient-specific level given a single 2D DXA scan. For instance, scoliosis involves deformations in multiple directions with known deformations on the coronal, sagittal and axial plane. A better understanding of the deformations will lead to tailored treatments and better management of patients.
 We propose an automated general framework to estimate the 3D spine shape from 2D DXA scans.
-We achieve this by predicting the coronal view (centerline and lateral curves) as well as sagittal view (centerline and lateral curves). Given 2 orthogonal projections of the 3D spine, we can reconstruct the 3D spine. This gives a user-friendly viusalisation of the spine that could be used in complement to 2D DXA to measure scoliosis. 
+We achieve this by predicting the coronal view (centerline and lateral curves) as well as sagittal view (centerline and lateral curves). Given 2 orthogonal projections of the 3D spine, we can reconstruct the 3D spine. This gives a user-friendly visualisation of the spine that could be used in complement to 2D DXA to measure scoliosis. 
 
 
 2 main contributions : 
