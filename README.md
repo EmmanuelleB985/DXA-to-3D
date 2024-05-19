@@ -19,7 +19,6 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -36,7 +35,7 @@ We achieve this by predicting the coronal view (centerline and lateral curves) a
 ## Getting Started
  
 Please follow the below instructions to run the code.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Prerequisites
 
@@ -46,14 +45,11 @@ From the UKBiobank, this dataset can be downloaded after creating an account and
 Follow instructions from this repo: 
 https://github.com/rwindsor1/UKBiobankDXAMRIPreprocessing
 
-2. Install the packages 
+2. Install the required packages 
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
 ```
 pip install -r requirements.txt
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
@@ -63,19 +59,12 @@ To train the model for spine curves regression, run
 python train.py
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
 ## ToDo
 
 - [x] Training code 
 - [x] Documentation 
 - [ ] Checkpoints 
-
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Acknowledgments
@@ -98,5 +87,3 @@ If you found this work useful, please cite the following papers:
    title     = {Self-Supervised Multi-Modal Alignment for Whole Body Medical Imaging},
    date      = {2021},
  }
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
