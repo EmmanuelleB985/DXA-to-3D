@@ -32,6 +32,9 @@ We achieve this by predicting the coronal view (centerline and lateral curves) a
 * Use of lightweight transformer and ResNet50 backbone surpassing Transformer and CNN-based models
 
 
+![](assets/SPINE2D3D.gif)
+
+
 ## Getting Started
  
 Please follow the below instructions to run the code.
