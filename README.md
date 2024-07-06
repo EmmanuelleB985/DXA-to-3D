@@ -1,4 +1,4 @@
-# DXA_to_3D
+# 3D Spine Shape Estimation from Single 2D DXA (MICCAI2024)
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -31,8 +31,7 @@ We achieve this by predicting the coronal view (centerline and lateral curves) a
 * Regression of 3D patient-specific spine shapes from 2D AP DXA only. 
 * Use of lightweight transformer and ResNet50 backbone surpassing Transformer and CNN-based models
 
-
-![](assets/SPINE2D3D.gif)
+<img src="assets/SPINE_2D_3D.gif">
 
 
 ## Getting Started
@@ -61,7 +60,7 @@ To train the model for spine curves regression, run
 ```
 python train.py
 ```
-
+Can now be trained on a single GPU 10GB VRAM! Training time ~6hrs
 
 ## ToDo
 
@@ -74,7 +73,7 @@ python train.py
 
 If you found this work useful, please cite the following papers: 
 
-
+```
 @InProceedings{Bourigault23,
   author       = "Emmanuelle Bourigault  and Amir Jamaludin and Emma Clark and Jeremy Fairbank and Timor Kadir and Andrew Zisserman",
   title        = "3D Shape Analysis of Scoliosis",
@@ -90,3 +89,4 @@ If you found this work useful, please cite the following papers:
    title     = {Self-Supervised Multi-Modal Alignment for Whole Body Medical Imaging},
    date      = {2021},
  }
+```
