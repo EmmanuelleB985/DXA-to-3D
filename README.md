@@ -1,4 +1,4 @@
-# 3D Spine Shape Estimation from Single 2D DXA (MICCAI2024)
+# 3D Spine Shape Estimation from Single 2D DXA (MICCAI2024 Oral)
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -66,7 +66,7 @@ Can now be trained on a single GPU 10GB VRAM! Training time ~6hrs
 
 - [x] Training code 
 - [x] Documentation 
-- [ ] Checkpoints 
+- [ ] Demo coming soon
 
 
 ## Acknowledgments
