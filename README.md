@@ -31,8 +31,7 @@ We achieve this by predicting the coronal view (centerline and lateral curves) a
 * Regression of 3D patient-specific spine shapes from 2D AP DXA only. 
 * Use of lightweight transformer and ResNet50 backbone surpassing Transformer and CNN-based models
 
-<img src="assets/SPINE_2D_3D.gif">
-
+<video src="assets/SPINE2D3D.mp4">
 
 ## Getting Started
  
@@ -62,9 +61,19 @@ python train.py
 ```
 Can now be trained on a single GPU 10GB VRAM! Training time ~6hrs
 
+
+You can download pre-trained model checkpoints [here] (https://www.dropbox.com/scl/fi/be4dg1xccgl1fo9wn74i8/epoch-996-loss_valid-points-best_loss-0.0168.pt?rlkey=ytnrrctofyebqtkj5p4554px1&st=zujv8ure&dl=0) and place in the checkpoints folder.
+
+At inference time to obtain orthogonal spine curves from DXA scan, run 
+
+```
+python test.py
+```
+
 ## ToDo
 
 - [x] Training code 
+- [x] Testing code 
 - [x] Documentation 
 - [ ] Demo coming soon
 
@@ -74,13 +83,24 @@ Can now be trained on a single GPU 10GB VRAM! Training time ~6hrs
 If you found this work useful, please cite the following papers: 
 
 ```
-@InProceedings{Bourigault23,
-  author       = "Emmanuelle Bourigault  and Amir Jamaludin and Emma Clark and Jeremy Fairbank and Timor Kadir and Andrew Zisserman",
-  title        = "3D Shape Analysis of Scoliosis",
-  booktitle    = "MICCAI Workshop on Shape in Medical Imaging ",
-  year         = "2023",
-  publisher    = "Springer",
-  keywords     = "MRI · Spine Geometry · 3D/2D Correspondences",
+@InProceedings{10.1007/978-3-031-72086-4_1,
+author="Bourigault, Emmanuelle
+and Jamaludin, Amir
+and Zisserman, Andrew",
+editor="Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.",
+title="3D Spine Shape Estimation from Single 2D DXA",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="3--13",
+isbn="978-3-031-72086-4"
 }
 
 @inproceedings{Windsor21,
