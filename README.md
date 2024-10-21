@@ -31,7 +31,7 @@ We achieve this by predicting the coronal view (centerline and lateral curves) a
 * Regression of 3D patient-specific spine shapes from 2D AP DXA only. 
 * Use of lightweight transformer and ResNet50 backbone surpassing Transformer and CNN-based models
 
-<video src="assets/SPINE2D3D.mp4">
+<video src="assets/SPINE2D3D.mp4"width="320" height="240"></video>
 
 ## Getting Started
  
