@@ -83,24 +83,15 @@ python test.py
 If you found this work useful, please cite the following papers: 
 
 ```
-@InProceedings{10.1007/978-3-031-72086-4_1,
-author="Bourigault, Emmanuelle
-and Jamaludin, Amir
-and Zisserman, Andrew",
-editor="Linguraru, Marius George
-and Dou, Qi
-and Feragen, Aasa
-and Giannarou, Stamatia
-and Glocker, Ben
-and Lekadir, Karim
-and Schnabel, Julia A.",
-title="3D Spine Shape Estimation from Single 2D DXA",
-booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
-year="2024",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="3--13",
-isbn="978-3-031-72086-4"
+@InProceedings{Bou_3D_MICCAI2024,
+        author = { Bourigault, Emmanuelle and Jamaludin, Amir and Zisserman, Andrew},
+        title = { { 3D Spine Shape Estimation from Single 2D DXA } },
+        booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+        year = {2024},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 15005},
+        month = {October},
+        page = {pending}
 }
 
 @inproceedings{Windsor21,
