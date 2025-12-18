@@ -24,7 +24,7 @@ We present an automated framework to estimate 3D spine shapes from 2D DXA scans,
 ## Key Features
 
 - **Multiple Model Architectures**: Transformer and ResNet50 models
-- **Comprehensive Metrics**: Cobb angle, curvature, and 3D reconstruction metrics
+- **Comprehensive Metrics**: Angle, curvature, and 3D reconstruction metrics
 - **Advanced Visualization**: 2D projections and 3D mesh generation
 - **Efficient Training**: Mixed precision training, gradient accumulation
 - **Production Ready**: Type hints, comprehensive testing, CI/CD pipeline
@@ -114,7 +114,7 @@ To use your own dataset, ensure annotations follow this format:
 }
 ```
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Download Pre-trained Model
 
@@ -260,7 +260,7 @@ predictions = estimator.predict_single('dxa_image.png')
 
 # Access results
 coronal_curve = predictions['coronal_centerline']  # (100, 2) array
-cobb_angle = predictions['cobb_angle']  # Cobb angle in degrees
+angle = predictions['angle']  # angle in degrees
 spine_3d = predictions['spine_3d']  # (100, 3) 3D coordinates
 ```
 
