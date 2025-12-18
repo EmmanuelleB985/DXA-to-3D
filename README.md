@@ -6,7 +6,7 @@
 [![CI/CD](https://github.com/EmmanuelleB985/DXA-to-3D/actions/workflows/ci.yml/badge.svg)](https://github.com/EmmanuelleB985/DXA-to-3D/actions)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-**[Project Page](https://www.robots.ox.ac.uk/~vgg/research/dxa-to-3d/) | [Paper](https://www.robots.ox.ac.uk/~vgg/research/dxa-to-3d/paper.pdf) | [Video](https://www.robots.ox.ac.uk/~vgg/research/dxa-to-3d/video.mp4) | [Dataset](#dataset)**
+**[Project Page](https://www.robots.ox.ac.uk/~vgg/research/dxa-to-3d/) | [Paper](https://www.robots.ox.ac.uk/~vgg/research/dxa-to-3d/paper.pdf) | [Dataset](#dataset)**
 
 ## Overview
 
@@ -30,7 +30,7 @@ We present an automated framework to estimate 3D spine shapes from 2D DXA scans,
 - **Production Ready**: Type hints, comprehensive testing, CI/CD pipeline
 - **Well Documented**: Google-style docstrings 
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -287,7 +287,7 @@ metrics = evaluate_model(
 )
 ```
 
-## 📊 Results
+## Results
 
 ### Quantitative Results
 
@@ -295,12 +295,6 @@ metrics = evaluate_model(
 |-------|-------|-------|-------------------|---------------|
 | ResNet50 | 0.0182 | 0.0134 | 2.3° | 4.2mm |
 | **Transformer (Ours)** | **0.0168** | **0.0121** | **1.9°** | **3.8mm** |
-
-### Qualitative Results
-
-<p align="center">
-  <img src="assets/results_visualization.png" width="800">
-</p>
 
 ## API Documentation
 
