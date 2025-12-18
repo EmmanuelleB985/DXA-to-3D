@@ -1,39 +1,49 @@
-arrow==1.3.0
-bottleneck-transformer-pytorch==0.1.4
-imageio==2.34.0
-imageio-ffmpeg==0.4.9
-matplotlib==3.8.4
-matplotlib-inline==0.1.6
-moviepy==1.0.3
-nibabel==3.2.2
-ninja==1.11.1.1
-notebook==7.1.2
-notebook_shim==0.2.4
-numpy==1.26.3
-opencv-python==4.9.0.80
-pandas==2.2.1
-path==16.14.0
-pathlib==1.0.1
-patsy==0.5.6
-pillow==10.2.0
-protobuf==5.26.1
-pydicom==2.4.4
-scikit-image==0.23.1
-scikit-learn==1.4.1.post1
-scipy==1.12.0
-seaborn==0.13.2
-segmentation-models-pytorch==0.3.3
-setuptools==68.2.2
-shapely==2.0.4
-SimpleITK==2.3.1
-stack-data==0.6.3
-statsmodels==0.14.1
-tensorboard==2.16.2
-tensorboard-data-server==0.7.2
-tensorboardX==2.1
-torch==2.2.2
-torch_geometric==2.5.3
-torchmetrics==1.3.2
-torchvision==0.17.2
-tqdm==4.66.2
-typing_extensions==4.8.0
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-image>=0.21.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+tqdm>=4.65.0
+
+# Deep Learning specific
+einops>=0.7.0
+timm>=0.9.0  # For vision transformer models
+albumentations>=1.3.0  # For data augmentation
+
+# Medical imaging
+SimpleITK>=2.2.0
+nibabel>=5.1.0
+pydicom>=2.4.0
+
+# 3D visualization
+trimesh>=4.0.0
+open3d>=0.17.0
+vedo>=2023.5.0
+plotly>=5.15.0
+
+# Configuration and utilities
+pyyaml>=6.0
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+tensorboard>=2.13.0
+wandb>=0.15.0  # For experiment tracking
+
+# Development dependencies (for CI/CD)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.4.0
+isort>=5.12.0
+pre-commit>=3.3.0
+
+# Type hints
+typing-extensions>=4.7.0
+types-PyYAML>=6.0.0
+types-tqdm>=4.65.0
