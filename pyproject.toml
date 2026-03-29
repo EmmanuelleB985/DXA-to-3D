@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.black]
+target-version = ["py39"]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
